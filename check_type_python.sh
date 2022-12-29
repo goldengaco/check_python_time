@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #Obtener todos los procesos de Python en ejecución
 procesos=$(pgrep python)
 #Obtener cmd del proceso de Python en ejecución 
