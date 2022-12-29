@@ -23,7 +23,7 @@ exit 3
 fi
 
 #Verificar si tiempo_warning es menor que tiempo_critical
-if [ "$2" -gt "$4"]; then 
+if [ "$2" -gt "$4" ]; then 
 echo "UNKNOWN - El tiempo de warning debe ser menor que el tiempo de critical"
 exit 3 
 fi 
