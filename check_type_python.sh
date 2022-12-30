@@ -18,7 +18,7 @@ fi
 if [ "$1" != "-w" ] || [ "$3" != "-c" ]; then
 
 #Si no se han pasado los parámetros correctamente, mostrar mensaje y salir con código de estado 3
-echo "UNKNOWN - Uso incorrecto del script. Utilice: check_type_python.sh -w tiempo_warning -c tiempo_critical"
+echo "UNKNOWN - Uso incorrecto del script. Utilice: check_python_time.sh -w tiempo_warning -c tiempo_critical"
 exit 3
 fi
 
